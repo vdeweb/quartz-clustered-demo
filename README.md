@@ -1,6 +1,6 @@
 # Quartz Clustered Demo
 
-Demo project which illustrates how to create a clustered job scheduler with Quartz.NET C#-library and PostgreSQL as persistent storage.
+The demo project which illustrates how to create a clustered job scheduler with Quartz.NET C#-library and PostgreSQL as a persistent storage.
 
 ## The aim
 
