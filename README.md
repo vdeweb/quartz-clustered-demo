@@ -40,7 +40,7 @@ The key configuration of job producer and job consumer is stored in the file `qu
 
 ## Run the demo
 
-You should start an instance (or multiple instances) of JobProducer to schedule some example jobs and an instance (or multiple instances) of JobConsumer to execute them. Each consumer executes two tasks in parallel with default settings.
+You should start an instance (or multiple instances) of `JobProducer` to schedule some example jobs and an instance (or multiple instances) of `JobConsumer` to execute them. Each consumer executes two tasks in parallel with default settings.
 
 ## License
 
