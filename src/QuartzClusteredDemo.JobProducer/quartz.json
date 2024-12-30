@@ -1,0 +1,18 @@
+{
+  "Quartz": {
+    "quartz.scheduler.instanceName": "QuartzClusteredDemo",
+    "quartz.scheduler.instanceId": "AUTO",
+    "quartz.jobStore.type": "Quartz.Impl.AdoJobStore.JobStoreTX, Quartz",
+    "quartz.jobStore.clustered": true,
+    "quartz.jobStore.clusterCheckinInterval": 20000,
+    "quartz.jobStore.useProperties": "false",
+    "quartz.jobStore.tablePrefix": "qrtz_",
+    "quartz.jobStore.dataSource": "default",
+    "quartz.jobStore.driverDelegateType": "Quartz.Impl.AdoJobStore.PostgreSQLDelegate, Quartz",
+    "quartz.dataSource.default.connectionString": "Host=127.0.0.1;Port=5432;Database=quartz_clustered;Username=postgres;Password=;",
+    "quartz.dataSource.default.provider": "Npgsql",
+    "quartz.serializer.type": "json",
+    "quartz.threadPool.type": "Quartz.Simpl.DefaultThreadPool, Quartz",
+    "quartz.threadPool.threadCount": 2
+  }
+}

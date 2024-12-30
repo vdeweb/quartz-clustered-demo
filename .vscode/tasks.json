@@ -1,0 +1,34 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "build_consumer",
+        "command": "dotnet",
+        "type": "process",
+        "args": [
+          "build",
+          "${workspaceFolder}/src/QuartzClusteredDemo.JobConsumer/QuartzClusteredDemo.JobConsumer.csproj",
+          "-c",
+          "Debug",
+          "/property:GenerateFullPaths=true",
+          "/consoleloggerparameters:NoSummary;ForceNoAlign"
+        ],
+        "problemMatcher": "$msCompile"
+      },
+      {
+        "label": "build_producer",
+        "command": "dotnet",
+        "type": "process",
+        "args": [
+          "build",
+          "${workspaceFolder}/src/QuartzClusteredDemo.JobProducer/QuartzClusteredDemo.JobProducer.csproj",
+          "-c",
+          "Debug",
+          "/property:GenerateFullPaths=true",
+          "/consoleloggerparameters:NoSummary;ForceNoAlign"
+        ],
+        "problemMatcher": "$msCompile"
+      }
+    ]
+  }
+  
